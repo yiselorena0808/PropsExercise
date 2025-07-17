@@ -5,7 +5,8 @@ import { useState } from "react";
 import VerProps from "./VerProps";
 
 const App:React.FC=()=>{
-  const [nombreRol,setNombreRol,descripcion,setDescripcion]= useState('Usuario')
+  const [nombreRol,setNombreRol]= useState('')
+  const [descripcion,setDescripcion]= useState('')
   return(
        <Router>
       <Routes>

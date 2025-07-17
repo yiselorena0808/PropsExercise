@@ -13,7 +13,7 @@ const Detalles: React.FC<DataProps> = ({nombreRol,setNombreRol,descripcion,setDe
     const navigate=useNavigate();
 
      const irVer = () => {
-      navigate("/verprops", { state: { nombreRol, descripcion } });
+      navigate("/verprops");
     
      }
 
